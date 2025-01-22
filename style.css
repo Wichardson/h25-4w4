@@ -1,0 +1,77 @@
+/*
+Theme Name: TP1 
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Wichardson Jean-Baptiste
+Author URI: https://wordpress.org/
+Description: Theme developer en cours
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.3
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* ///////////////
+Le VAriable
+////////////////*/
+/* ///////////////
+Les balise de bases
+////////////////*/
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-size: clamp(2rem, 3vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.3vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+h4 {
+  font-size: clamp(0.9rem, 2vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(0.9rem, 1.7vw, 1.3rem);
+}
+
+h6 {
+  font-size: clamp(0.8rem, 1.7vw, 1.2rem);
+}
+
+p {
+  font-size: clamp(0.8rem, 1.7vw, 1.2rem);
+}
+
+/* ///////////////
+Les composants
+////////////////*/
+.menu {
+  background-color: #aaa;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+}
+
+/* ///////////////
+Le layouts
+////////////////*/
+.hero {
+  background-image: url("images/maldives.jpg");
+  min-height: 100vh;
+}/*# sourceMappingURL=style.css.map */
